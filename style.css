@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.add{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.tasksToDo{
+  margin-top: 40px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 30px;
+}
+p{
+  margin-bottom: 20px;
+}
+button{
+  background-color: white;
+  padding: 5px 15px;
+}
+ul{
+  list-style-type:decimal
+}
+.tasksDone{
+  margin-top: 20px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+input{
+  width: 40%;
+  border: none;
+  font-size: 25px;
+  font-style: italic;
+  border-bottom: 1px solid black;
+}
+.btnAdd{
+  margin-left:20px;
+  cursor: pointer;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 5px 30px;
+  transition: .2s ;
+}
+.btnAdd:hover{
+  color: white;
+  border: 2px solid white;
+}
